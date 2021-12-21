@@ -1,0 +1,14 @@
+html {
+    font-size: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* ボタン */
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    padding: 18px 32px;
+}
