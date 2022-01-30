@@ -5,7 +5,7 @@ html {
 }
 
 .form {
-    background-image: url(img/test.JPG);
+    background-image: url("https://github.com/takuyaFujiwara08/WeddingPage2/blob/main/img/test.JPG");
     min-height: 100vh;
 }
 
