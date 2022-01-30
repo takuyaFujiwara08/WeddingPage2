@@ -1,9 +1,13 @@
 html {
-    font-size: 20px;
+    font-size: 100%;
     max-width: 900px;
     margin: 0 auto;
 }
 
+.form {
+    background-image: url(img/test.JPG);
+    min-height: 100vh;
+}
 
 /* ボタン */
 .button {
@@ -13,10 +17,22 @@ html {
     padding: 18px 32px;
 }
 
+.category {
+    padding: 10px;
+}
+
+.nameBox {
+    display: flex;
+}
+
 .name {
+    padding: 0 10px 0 10px;
+}
+
+.telBox {
     display: flex;
 }
 
 .tel {
-    display: flex;
+    padding: 0 10px 0 10px;
 }

@@ -13,42 +13,42 @@
     <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
     <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd7AY3lnLlqwbIa0deVO-FPfdkJqr34KXsBmpKpevGhIZM5LA/formResponse" method="post" name="form" target="hidden_iframe" onsubmit="submitted=true;">
         <div class="category">出欠確認</div>
-        <div class="attendance">
+        <div class="attendanceBox">
             <input type="radio" name="entry.241106535" value="出席" id="yes">
             <label for="yes">出席</label>
             <input type="radio" name="entry.241106535" value="欠席" id="no">
             <label for="no">欠席</label>
-            <input type="radio" name="entry.241106535" value="不明" id="fumei">
-            <label for="fumei">不明</label>
+            <input type="radio" name="entry.241106535" value="保留" id="fumei">
+            <label for="fumei">保留</label>
         </div>
 
         <div class="category">お名前</div>
-        <div class="name">
-            <div class="firstName"><input type="text" size="5" name="entry.326802002" placeholder="姓"></div>
-            <div class="lastName"><input type="text" size="5" name="entry.383815919" placeholder="名"></div>
+        <div class="nameBox">
+            <div class="name"><input type="text" size="5" name="entry.326802002" placeholder="姓"></div>
+            <div class="name"><input type="text" size="5" name="entry.383815919" placeholder="名"></div>
         </div>
 
         <div class="category">お電話番号</div>
-        <div class="tel">
-            <div class="tel1"></div><input type="tel" size="5" name="entry.516145777" placeholder="電話番号">-
-            <div class="tel2"></div><input type="tel" size="5" name="entry.1045705577" placeholder="電話番号">-
-            <div class="tel3"></div><input type="tel" size="5" name="entry.1817488201" placeholder="電話番号">
+        <div class="telBox">
+            <div class="tel"><input type="tel" size="5" name="entry.516145777" placeholder="000">-</div>
+            <div class="tel"><input type="tel" size="5" name="entry.1045705577" placeholder="0000">-</div>
+            <div class="tel"><input type="tel" size="5" name="entry.1817488201" placeholder="0000"></div>
         </div>
 
         <div class="category">アレルギー</div>
-        <div class="allergy">
+        <div class="allergyBox">
             <input type="radio" name="entry.1768174350" value="なし" id="aNo">
             <label for="aNo">なし</label>
             <input type="radio" name="entry.1768174350" value="あり" id="aYes">
             <label for="aYes">あり</label><br>
-            <div id="messageBox">
+            <div id="allergyDetailBox">
                 <div class="example">例）乳、卵</div>
                 <textarea name="entry.128338402" cols="30" rows="2" placeholder="アレルギー"></textarea>
             </div>
         </div>
 
         <div class="category">お祝いメッセージ</div>
-        <div class="message">
+        <div class="messageBox">
             <textarea name="entry.307512135" cols="30" rows="5" placeholder="コメント"></textarea>
         </div>
 
