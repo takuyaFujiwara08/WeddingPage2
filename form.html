@@ -9,50 +9,21 @@
 </head>
 
 <body>
-    <form class="form" action="example.php" method="post" name="form">
-        <div class="category">出欠確認</div>
-        <div class="attendance">
-            <input type="radio" name="attendance" value="出席" id="yes">
-            <label for="yes">出席</label>
-            <input type="radio" name="attendance" value="欠席" id="no">
-            <label for="no">欠席</label>
-            <input type="radio" name="attendance" value="不明" id="fumei">
-            <label for="fumei">不明</label>
-        </div>
-
-        <div class="category">お名前</div>
-        <div class="name">
-            <div class="firstName"><input type="text" size="5" placeholder="姓"></div>
-            <div class="lastName"><input type="text" size="5" placeholder="名"></div>
-        </div>
-
-        <div class="category">お電話番号</div>
-        <div class="tel"><input type="tel" placeholder="電話番号"></div>
-
-        <div class="category">ゲスト</div>
-        <div class="guest">
-            <input type="radio" name="allergy" value="新郎側" id="man">
-            <label for="man">新郎側</label>
-            <input type="radio" name="guest" value="新婦側" id="woman">
-            <label for="woman">新婦側</label>
-        </div>
-
-        <div class="category">アレルギー</div>
-        <div class="allergy">
-            <input type="radio" name="allergy" value="なし" id="aNo">
-            <label for="aNo">なし</label>
-            <input type="radio" name="allergy" value="あり" id="aYes">
-            <label for="aYes">あり</label><br>
-            <div id="messageBox">
-                <div class="example">例）乳、卵</div>
-                <textarea name="aMessage" cols="30" rows="2" placeholder="アレルギー"></textarea>
-            </div>
-        </div>
-
-        <div class="category">お祝いメッセージ</div>
-        <div class="message">
-            <textarea name="message" cols="30" rows="5" placeholder="コメント"></textarea>
-        </div>
-    </form>
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdth9xg-UqK53DvADJDht-ksxaNOmAlmekY7mrYi0HPxQWkSQ/formResponse" method="post">
+        <dl>
+          <dt>お名前<span>必須</span></dt>
+          <dd><input type="text" name="entry.222022624" required></dd>
+          <dt>メールアドレス<span>必須</span></dt>
+          <dd><input type="email" name="entry.562389703" required></dd>
+          <dt>お問い合わせ内容<span>必須</span></dt>
+          <dd><textarea name="entry.378330548" required></textarea></dd>
+          <dt>メールマガジン購読</dt>
+          <dd>
+            <input type="radio" id="mailmagazine-true" name="entry.1378793241" value="購読する"><label for="mailmagazine-true">購読する</label>
+            <input type="radio" id="mailmagazine-false" name="entry.1378793241" value="購読しない"><label for="mailmagazine-false">購読しない</label>
+          </dd>
+        </dl>
+        <input type="submit" value="送信">
+      </form>
 </body>
 </html>
