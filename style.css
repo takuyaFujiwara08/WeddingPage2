@@ -6,56 +6,53 @@ html {
 -----------------------*/
 body {
     font-family: "Yu Gothic medium", "游ゴシック medium", "游ゴシック体", "ヒラギノ角ゴ Pro M3", sans-serif;
-    line-height: 1.7;
-    max-width: 600px;
+    /* line-height: 1.7;*/
+    /* max-width: 600px; */
     margin: 0 auto;
-}
-
-/* HEAD
------------------------*/
-.section {
-    margin: 0px 20px;
-}
-/* BODY
------------------------*/
-
-
-/* CONTACT
------------------------*/
-#contact {
-    background-image: url(img/test.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 30px;
-}
-
-.shoutaibun {
-    text-align: center;
-}
-.infoBlock {
-    padding: 0px 40px;
 }
 
 span {
     font-weight: bold;
 }
 
-/* ボタン */
-.button {
-    background: #0bd;
-    color: #fff;
-    padding: 9px 16px;
-    border: 1px #fff solid;
+/* HEAD
+-----------------------*/
+/* INDEX
+-----------------------*/
+main {
+    padding: 30px;
+}
+.section {
+    margin: 0px 20px;
+}
+.shoutaibun {
+    text-align: center;
+    font-size: 0.75rem;
+}
+.infoBlock {
+    padding: 0px 0px 20px 30px;
+    font-size: 0.75rem;
 }
 
+
+/* CONTACT
+-----------------------*/
+#contact {
+    background-image: url(img/test.JPG);
+    background-size: cover;
+}
+.big-bg {
+    padding: 30px;
+}
+.form {
+    max-width: 600px;
+}
 .nameBox {
     display: flex;
 }
-
 .telBox {
     display: flex;
 }
-
 input[type="text"],
 input[type="tel"],
 input[type="radio"],
@@ -66,4 +63,11 @@ textarea {
     border-radius: 5px;
     max-width: 100%;
     margin: 0 10px 20px 10px;
+}
+/* ボタン */
+.button {
+    background: #0bd;
+    color: #fff;
+    padding: 9px 16px;
+    border: 1px #fff solid;
 }
