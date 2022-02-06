@@ -7,20 +7,21 @@
     <title>出欠フォーム</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, inirial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=philosopher">
 </head>
 
 <body>
     <div id="contact" class="big-bg">
-        <header>
-            ご出席いただきありがとうございます！<br>
-            結婚式1.5次会のご招待に当たり<br>
-            アンケートのご協力をお願いいたします。        
+        <header>   
         </header>
     
         <script>let submitted = false;</script>
         <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
         <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe31A2eex4W0bRzmDyU8T862MhfoDRhNA8khMphtUtsuAI-DA/formResponse" method="post" name="form" target="hidden_iframe" onsubmit="submitted=true;">
-                                    
+            ご出席いただきありがとうございます！<br>
+            結婚式1.5次会のご招待に当たり<br>
+            アンケートのご協力をお願いいたします。      
             <div>
                 <span>お名前</span>
                 <div class="nameBox">
@@ -47,7 +48,7 @@
                     <label for="aYes">あり</label><br>
                 </div>
                 
-                <div id="allergyDetailBox">
+                <div class="allergyDetailBox">
                     <textarea name="entry.1600351969" cols="30" rows="2" placeholder="例）乳、卵"></textarea>
                 </div>
             </div>

@@ -21,16 +21,19 @@ span {
 -----------------------*/
 main {
     padding: 30px;
+    background: #eee7d4;
 }
 .section {
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 .shoutaibun {
     text-align: center;
     font-size: 0.75rem;
+    font-family: 'Comforter', cursive;
+    font-family: 'Klee One', cursive;
 }
 .infoBlock {
-    padding: 0px 0px 20px 30px;
+    padding: 0px 0px 20px 10px;
     font-size: 0.75rem;
 }
 
@@ -45,7 +48,7 @@ main {
     padding: 30px;
 }
 .form {
-    max-width: 600px;
+    background: rgba(255, 255, 255, .5);
 }
 .nameBox {
     display: flex;
@@ -56,9 +59,10 @@ main {
 input[type="text"],
 input[type="tel"],
 input[type="radio"],
-textarea {
+.allergyDetailBox,
+.messageBox {
     background: rgba(255, 255, 255, .5);
-    border: 1px #fff solid;
+    border: 1px #000 solid;
     margin-bottom: 20px;
     border-radius: 5px;
     max-width: 100%;
