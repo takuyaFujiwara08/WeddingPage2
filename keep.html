@@ -23,12 +23,11 @@
             <main class="wrapper">
                 <div class="greeting">
                     ご回答ありがとうございます<br>
-                    披露宴ご参加にあたりまして<br>
-                    下記の記入をお願いいたします
+                    人数把握のためお名前の記載をお願いいたします
                 </div>
                 
                 <script>let submitted = false;</script>
-                <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+                <iframe name="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanksKeep.html';}"></iframe>
                 <form class="wrapper" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe31A2eex4W0bRzmDyU8T862MhfoDRhNA8khMphtUtsuAI-DA/formResponse" method="post" name="form" target="hidden_iframe" onsubmit="submitted=true;">
                     <div id="input-box">
                         <div>
@@ -36,31 +35,6 @@
                             <div class="form-box">
                                 <input type="text" size="5" name="entry.1038520568" placeholder="姓" required>
                                 <input type="text" size="5" name="entry.758212106" placeholder="名" required>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <span>お電話番号</span>
-                            <div class="form-box">
-                                <input type="tel" size="5" name="entry.1307713836" placeholder="000" required>-
-                                <input type="tel" size="5" name="entry.168716669" placeholder="0000" required>-
-                                <input type="tel" size="5" name="entry.1431886975" placeholder="0000" required>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <span>アレルギー</span>
-                            <div class="form-box">
-                                <input class="js-check" type="radio" name="entry.568964379" value="なし" id="aNo" required checked onclick="formSwitch()">
-                                <label for="aNo">なし</label>
-                                <input class="js-check" type="radio" name="entry.568964379" value="あり" id="aYes" required onclick="formSwitch()">
-                                <label for="aYes">あり</label><br>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <div class="form-box" id="allergyDetailBox">
-                                <textarea id="allergyDetail" name="entry.1600351969" cols="40" rows="2" placeholder="例）乳、卵"></textarea>
                             </div>
                         </div>
                         
@@ -73,17 +47,9 @@
                         
                         <div>
                             <div class="button">
-                                <input type="button" value="確認" onclick="checkInfo()">
+                                <input type="submit" id="submitButton" value="送信">
                             </div>
                         </div>
-                    </div> 
-                    <div id="checkDisplayBox">
-                    </div>
-                    <div id="buttonBox" class="wrapper">
-                        <div class="button">
-                            <input type="submit" id="submitButton" value="送信">
-                        </div>
-                    </div>
                 </form>
             </main>
     
