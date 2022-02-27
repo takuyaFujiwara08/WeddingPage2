@@ -151,9 +151,6 @@ input[type="radio"],
         padding: 1rem 0.25rem;
         font-size: 0.825rem;
     }
-    .header-nav {
-        display: none;   
-    }
 
     .form-box {
         margin: 0 0 20px 0;
