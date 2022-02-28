@@ -53,7 +53,6 @@ function checkInfo(){
             `;
             
         inputbox.style.display ="none";
-        submitButton.style.display ="block";
         buttonBox.style.display ="block";
 
     }

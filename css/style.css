@@ -16,7 +16,7 @@ img {
     width: 100%;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 header {
     background-color: #E0D7CE;
@@ -129,10 +129,13 @@ input[type="radio"],
 #allergyDetailBox {
     display: none;
 }
+.plus {
+    font-size: 0.75rem;
+}
 .button {
     color: #432;
     background-color: #E0D7CE;
-    text-align: center;
+    text-align: center; 
     width: 50px;
     height: 30px;
     margin-bottom: 20px;
@@ -140,7 +143,6 @@ input[type="radio"],
 }
 #buttonBox {
     display: none;
-    text-align: center;
 }
 
 @media (max-width: 600px) {
