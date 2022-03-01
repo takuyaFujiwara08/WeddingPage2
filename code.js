@@ -61,11 +61,9 @@ function checkInfo(){
 
 function backDisplay() {
     var inputBox = document.getElementById("input-box");
-    var submitButton = document.getElementById("submitButton");
     var checkDisplay = document.getElementById("checkDisplay");
     var buttonBox = document.getElementById("buttonBox");
     inputBox.style.display ="block";
-    submitButton.style.display ="none";
     buttonBox.style.display ="none";
     checkDisplay.remove();
 }
